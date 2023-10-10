@@ -1,38 +1,99 @@
-  
-  :root{
-    --primary-color:blueviolet;
-    --secondary-color:#99ff99;
-    --text-white: antiquewhite;
-    --off-color: #00ccff;
-    --hight-point:#810e6f;
-  }
-  
-  nav{
-    background-color: var(--secondary-color);
-    text-align: center;
-    border-top-right-radius: 2rem;
-    border-bottom-left-radius:  2rem;
-  }
-  .navheading{
-    font-weight: bold;
-    font-size: x-large;
-  }
-  .list-line{
-    display: inline;
-    padding: 0rem 0.5rem;
-    color: white;
-  }
+:root {
+  --primary-color: blueviolet;
+  --secondary-color: #99ff99;
+  --text-white: antiquewhite;
+  --off-color: #00ccff;
+  --hight-point: #810e6f;
+  --link: #e803fc;
+}
 
-  .container-center{
-    text-align: center;
-    color: var(--primary-color);
-  .first-heading{
-    font-weight: bolder;
-    color: var(--primary-color);
-  }
-  .highlight-heading{
-    color:var(--hight-point);
-  }
-  .first-heading{
-    text-;
-  }
+
+
+body {
+  margin: 5rem;
+  box-sizing: border-box;
+  width: auto;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+
+}
+
+nav {
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top-right-radius: 2rem;
+  /* border-bottom-left-radius: 2rem; */
+  border-top-left-radius: 2rem;
+  /* border-bottom-right-radius: 2rem; */
+
+}
+
+.navheading {
+  font-weight: bold;
+  font-size: small;
+  color:azure;
+}
+
+.list-line {
+  display: inline;
+  padding: 0rem 0.5rem;
+
+}
+
+.list-line a {
+  color:var(--off-color)
+}
+
+.container-center {
+  text-align: center;
+   
+  color: var(--primary-color);
+}
+
+header .container-center  {
+margin: 0%;
+}
+
+.first-heading {
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.highlight-heading {
+  color: var(--off-color);
+}
+
+.footer-container {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  text-align: center;
+  color:var(--text-white);
+}
+
+.faded-background {
+  background-color: var(--text-white);
+  border-radius: 0.5rem;
+}
+
+.line {
+  display: inline;
+  padding: 0rem 0.3rem;
+  
+}
+
+.line a {
+  text-decoration: none;
+  color: var(--link);
+}
+
+.container-center a {
+  text-decoration: none;
+}
+ 
+.link-active {
+  font-weight:bolder ; 
+  
+/* color: rgb(243, 233, 243); */
+
+}
