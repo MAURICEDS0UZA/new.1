@@ -13,10 +13,13 @@ body {
   margin: 5rem;
   box-sizing: border-box;
   width: auto;
-  padding: 10px;
-  border: 1px solid var(--primary-color);
+  padding: 0px;
 
+  border: 1px solid var(--primary-color);
+    background-image: url('https://www.w3schools.com/cssref/img_5terre.jpg');
+    background-size: cover ;
 }
+
 
 nav {
   background-color: var(--primary-color);
@@ -27,6 +30,8 @@ nav {
   /* border-bottom-right-radius: 2rem; */
 
 }
+
+
 
 .navheading {
   font-weight: bold;
@@ -61,6 +66,7 @@ margin: 0%;
 
 .highlight-heading {
   color: var(--off-color);
+  text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue
 }
 
 .footer-container {
@@ -96,4 +102,9 @@ margin: 0%;
   
 /* color: rgb(243, 233, 243); */
 
+}
+
+.image{
+  width: 80%; /* Set the width to 200 pixels */
+  height: 102px; /* Set the height to 150 pixels */
 }
